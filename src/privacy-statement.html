@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Financial Intelligence</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- CSS -->
+    <!-- FONTAWSESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONTAWSESOME -->
+  </head>
+  <body>
+    <header class="fixed left-0 right-0 top-0 z-[999] bg-white py-[8px]">
+      <div class="container flex items-center justify-between">
+        <div class="flex items-center gap-8">
+          <a href="/">
+            <img
+              class="h-[44px] object-contain"
+              width="183"
+              height="44"
+              src="./assets/svgs/logo.svg"
+              loading="lazy"
+              alt=""
+            />
+          </a>
+          <div class="line-vertical"></div>
+          <ul class="header-list">
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            <li class="about-mega-header">
+              <a href="/about-us.html">About Us</a>
+              <i class="fa-solid fa-angle-down"></i>
+              <ul class="about-mega">
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a class="font-normal" href="/about-us.html#our-company"
+                    >Our Company</a
+                  >
+                </li>
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a class="font-normal" href="/about-us.html#global-presence"
+                    >Global Presence</a
+                  >
+                </li>
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a class="font-normal" href="/about-us.html#mission-vision"
+                    >Vision and Mission</a
+                  >
+                </li>
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a class="font-normal" href="/about-us.html#who-we-serve"
+                    >Who we Serve</a
+                  >
+                </li>
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a
+                    class="font-normal"
+                    href="/about-us.html#board-of-management"
+                    >Board of Management</a
+                  >
+                </li>
+                <li
+                  class="text-text-dark hover:text-primary-green duration-200 transition-all"
+                >
+                  <a class="font-normal" href="/career.html">Careers</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-mega-wrapper">
+              <a href="/solutions.html">Solutions</a>
+              <i class="fa-solid fa-angle-down"></i>
+              <div class="header-mega grid grid-cols-[2fr_1fr]">
+                <div
+                  class="mega-solutions-pagination mega-swipe-pagination"
+                ></div>
+                <div>
+                  <div class="grid grid-cols-2 p-[38px]">
+                    <div>
+                      <div
+                        class="flex items-center gap-x-[10px] text-20 font-bold text-neutral-dark-100"
+                      >
+                        <img
+                          width="40"
+                          height="40"
+                          loading="lazy"
+                          src="./assets/svgs/global.svg"
+                          alt=""
+                        />
+                        Online Solutions
+                      </div>
+                      <ul class="mt-4 flex flex-col gap-4">
+                        <li>
+                          <a
+                            class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                            href="/solutions.html?tab=online-solutions#transfer-pricing"
+                            >Transfer Pricing</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                            href="/solutions.html?tab=online-solutions#dibots"
+                            >DIBots</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                            href="/solutions.html?tab=online-solutions#wvb-analysis"
+                            >WVB Analysis</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <div
+                        class="flex items-center gap-x-[10px] text-20 font-bold text-neutral-dark-100"
+                      >
+                        <img
+                          width="40"
+                          height="40"
+                          loading="lazy"
+                          src="./assets/svgs/analyst.svg"
+                          alt=""
+                        />
+                        Data Feeds
+                      </div>
+                      <div class="mt-4 flex gap-x-5">
+                        <ul class="flex flex-col gap-4">
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=industrial-data"
+                              >Industrial data</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=banking-data"
+                              >Banking Data</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=private-companies"
+                              >Private Companies</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=scoring"
+                              >Scoring</a
+                            >
+                          </li>
+                        </ul>
+                        <ul class="flex flex-col gap-4">
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=esg"
+                              >ESG</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=insider-dealings"
+                              >Director’s Biography</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                              href="/solutions.html?tab=peps"
+                              >PEPs & Sanctions</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="h-[1px] w-full bg-[rgba(0,0,0,0.2)]"></div>
+                  <a
+                    href="/solutions.html?tab=delivery-methods"
+                    class="flex w-fit items-center gap-x-[10px] p-4 text-18 text-neutral-dark-100 transition-all duration-100 hover:text-primary-green"
+                  >
+                    Data Delivery
+                    <img
+                      width="24"
+                      height="24"
+                      src="./assets/svgs/arrowNext.svg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  class="swiper mega-solutions-swiper w-full max-w-full max-h-full h-full"
+                >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="relative h-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          width="600"
+                          height="658"
+                          loading="lazy"
+                          src="./assets/images/map.jpg"
+                          alt=""
+                        />
+                        <div
+                          class="absolute left-0 top-0 flex h-full w-full flex-col justify-end p-6"
+                          style="
+                            background: linear-gradient(
+                              180deg,
+                              rgba(0, 0, 0, 0) 0%,
+                              #000000 100%
+                            );
+                          "
+                        >
+                          <p class="text-16 font-normal text-text-gray-light">
+                            Effectively handle the intricacies with all in one
+                            data and tool solution
+                          </p>
+                          <a
+                            href="/solutions.html?tab=online-solutions#transfer-pricing"
+                            class="mt-5 flex w-fit items-center text-16 font-normal text-white hover:underline"
+                          >
+                            View Transfer Pricing
+                            <img
+                              width="24"
+                              height="24"
+                              src="./assets/svgs/arrowNext-white.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="relative h-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          width="600"
+                          height="658"
+                          loading="lazy"
+                          src="./assets/images/dibots.jpg"
+                          alt=""
+                        />
+                        <div
+                          class="absolute left-0 top-0 flex h-full w-full flex-col justify-end p-6"
+                          style="
+                            background: linear-gradient(
+                              180deg,
+                              rgba(0, 0, 0, 0) 0%,
+                              #000000 100%
+                            );
+                          "
+                        >
+                          <p class="text-16 font-normal text-text-gray-light">
+                            With the help of big data processing and artificial
+                            intelligence, we bring timely data at your
+                            fingertips.
+                          </p>
+                          <a
+                            href="/solutions.html?tab=online-solutions#dibots"
+                            class="mt-5 flex w-fit items-center text-16 font-normal text-white hover:underline"
+                          >
+                            View DIBots
+                            <img
+                              width="24"
+                              height="24"
+                              src="./assets/svgs/arrowNext-white.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="relative h-full">
+                        <img
+                          class="h-full w-full object-cover"
+                          width="600"
+                          height="658"
+                          loading="lazy"
+                          src="./assets/images/analysis.jpg"
+                          alt=""
+                        />
+                        <div
+                          class="absolute left-0 top-0 flex h-full w-full flex-col justify-end p-6"
+                          style="
+                            background: linear-gradient(
+                              180deg,
+                              rgba(0, 0, 0, 0) 0%,
+                              #000000 100%
+                            );
+                          "
+                        >
+                          <p class="text-16 font-normal text-text-gray-light">
+                            The most comprehensive platform with millions of
+                            datasets providing you with the most in-depth
+                            information.
+                          </p>
+                          <a
+                            href="/solutions.html?tab=online-solutions#wvb-analysis"
+                            class="mt-5 flex w-fit items-center text-16 font-normal text-white hover:underline"
+                          >
+                            View WVB Analysis
+                            <img
+                              width="24"
+                              height="24"
+                              src="./assets/svgs/arrowNext-white.svg"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <a href="/news.html">News & Media</a>
+              <!-- <i class="fa-solid fa-angle-down"></i>
+              <div
+                class="header-mega grid !w-[500px] !min-w-fit grid-cols-[1fr_1.5fr]"
+              >
+                <div class="p-8 pr-0">
+                  <ul class="mt-4 flex h-fit flex-col gap-4">
+                    <li>
+                      <a
+                        class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                        href="/news.html"
+                        >WVB news</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                        href="https://www.linkedin.com/company/world'vest-base"
+                        target="_blank"
+                        >Announcement</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                        href="#"
+                        >Videos</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="text-16 !font-normal text-text-dark-blue transition-all duration-100 hover:text-primary-green"
+                        href="/faqs.html"
+                        >FAQs</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="relative">
+                  <img
+                    class="h-[323px] w-[300px] object-cover"
+                    width="3600"
+                    height="2400"
+                    loading="lazy"
+                    src="./assets/images/people.jpg"
+                    alt=""
+                  />
+                  <div
+                    class="absolute left-0 top-0 flex h-full w-full flex-col justify-end p-6"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        rgba(0, 0, 0, 0) 0%,
+                        #000000 100%
+                      );
+                    "
+                  >
+                    <p class="text-16 font-normal text-text-gray-light">
+                      Check out the latest result of the WVB Business Confidence
+                      Index survey in the First quarter of 2023.
+                    </p>
+                    <a
+                      href="/news.html"
+                      class="mt-5 flex w-fit items-center text-16 font-normal text-white hover:underline"
+                    >
+                      View WVB News
+                      <img
+                        width="24"
+                        height="24"
+                        src="./assets/svgs/arrowNext-white.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+            </li>
+            <li>
+              <a href="/contact-us.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="/why-choose-wvb.html">Why Choose WVB</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-3">
+          <!-- <a
+            class="bg-bg-gray-light flex items-center justify-center p-2.5 mr-4 rounded-full transition-all duration-300"
+            href="#"
+          >
+            <img src="./assets/svgs/headphone-header.svg" alt="" />
+          </a> -->
+          <!-- <a class="border-btn" href="#">Log in</a> -->
+          <div id="toggle" class="toggle-bar">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="parallax relative mt-[65.6px] bg-cover bg-no-repeat pt-[16.667%]"
+      style="
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(./assets/images/privacy/banner.jpg);
+      "
+    >
+      <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <h1 class="text-center text-[32px] font-bold text-white">
+          Privacy Statement
+        </h1>
+        <!-- <p class="text-center text-[18px] text-bg-gray-light mt-4">
+          Lorem ipsum dolor sit amet consectetur. Nulla id consectetur purus non
+          platea.
+        </p> -->
+      </div>
+    </section>
+    <section class="mt-12 container mx-auto max-w-[700px]">
+      <div>
+        <div class="text-24 font-bold text-primary-green">
+          Copyright Statement
+        </div>
+        <p class="mt-6 text-justify text-18 text-neutral-dark-500">
+          The contents of World'Vest Base website are protected by the copyright
+          laws of the USA and applicable international laws and treaties. No
+          portion of this content may be reproduced in any form, or by any
+          means, without the prior written consent of World'Vest Base, Inc. To
+          obtain reproduction consent, e-mail webmaster@wvb.com
+        </p>
+      </div>
+      <div class="mt-8">
+        <div
+          class="text-24 font-bold text-primary-green pb-6 border-b border-b-neutral-dark-200"
+        >
+          Privacy Policy & Disclaimer
+        </div>
+        <p class="text-18 text-neutral-dark-500 text-justify mt-6">
+          World’Vest Base, (henceforth WVB) ensures users of confidentiality and
+          privacy in using information acquired from this website. We disclose
+          our privacy practices as follows:
+        </p>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Types of Information We Collect From You
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            When you contact us through this web-site, your e-mail address will
+            be known to us and that information is kept within our businesses.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Use of Information
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            The information that we gather is primarily used to provide you with
+            more information about our business, our products and services that
+            we believe may be of benefit and interest to you.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Sharing of Information
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            WVB respects your privacy! Any and all information collected at this
+            site will be kept strictly confidential and will not be sold,
+            reused, rented, loaned, or otherwise disclosed. Any information you
+            give to WVB will be held with the utmost care, and will not be used
+            in ways that you have not consented to.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Accuracy of Information
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            We understand that keeping your information accurate and complete is
+            very important. If you have any reason to believe that our records
+            of you are inaccurate, incomplete or not current, please write in to
+            us upon which we will promptly rectify any such errors.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Reliable and Quality Services
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            To provide reliable and quality services, we ensure that all
+            personnel and staff involved in providing these services have the
+            necessary expertise and skills required of them. We also ensure that
+            we have the sufficient resources to run and support the system and
+            address any related security and privacy concerns that our Customers
+            might have. However, connection to our website is dependent on the
+            services of our web hosting company.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Transparency of Products
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            We are at all times committed in ensuring that any disclosure of our
+            products and services are fair and accurate. We shall not for this
+            purpose engage in conduct that is misleading or deceptive or make
+            any false or misleading representations with regard to the products
+            and services we provide.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Prompt Response for Enquiries and Complaints
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            Customer enquiries, feedback and complaints are always welcomed by
+            us as it helps us identify any weaknesses in the services we provide
+            and accordingly work towards improving it. To address any concerns
+            or to answer any questions or queries that customers may have, we
+            use our reasonable endeavours to ensure that we have the necessary
+            staffing and training needed to provide the Customer with a prompt
+            and satisfactory response. If our feedback or response is in anyway
+            unsatisfactory, Customers are free to submit their complaints to us.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">
+            Linked Sites
+          </div>
+          <p class="mt-3 text-18 text-justify text-neutral-dark-500">
+            This website may contain links to third party sites. We are not
+            responsible for the condition or content of these sites as they are
+            not under our control. The link(s) are provided solely for your
+            convenience and do not indicate, expressly or impliedly, any
+            endorsement, authorisation or sponsorship of those site(s) or the
+            products and services provided there. Access to those sites solely
+            at your own risk.
+          </p>
+        </div>
+        <div class="mt-4">
+          <div class="text-18 font-bold text-neutral-dark-500">Disclaimer</div>
+          <div class="text-primary-green text-18 font-bold mt-3">
+            PLEASE READ THESE TERMS AND CONDITIONS OF USE BEFORE USING THIS
+            WEBSITE.
+          </div>
+          <p class="text-18 text-justify text-neutral-dark-500">
+            a. This website is intended to provide information about WVB, their
+            businesses and operations as well as related topical issues.<br />
+            b. The compilations of material on this service are based on factual
+            information extracted from sources believed to be reliable. However,
+            WVB does not accept responsibility and expressly disclaims liability
+            for errors, ommissions, timeliness or mis-statements herein. Nothing
+            in the information or service constitutes investment advice.<br />
+            c. WVB expressly disclaims and excludes all express warranties and
+            implied warranties of merchantability and fitness for a particular
+            purpose. d. Neither WVB, nor any of its representative subsidiaries,
+            divisions, affiliates, agents or representatives, shall be liable to
+            you or any third party for any loss or injury arising out of the
+            information or any actions taken or not taken in response to any
+            information or your use of (or inability to use) this service.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-[120px]">
+      <div class="bg-bg-dark py-[18px] pb-[26px] sm:py-[28px] lg:py-[48px]">
+        <div class="container">
+          <div
+            class="grid grid-cols-1 justify-between gap-[8px] sm:gap-[10px] md:grid-cols-2 md:gap-[50px] lg:grid-cols-[1.5fr_1fr_1fr] lg:gap-[15px] xl1:grid-cols-[2.5fr_0.5fr_0.5fr_0.5fr] xl1:gap-[100px]"
+          >
+            <div class="">
+              <img
+                width="228.25"
+                height="64"
+                src="./assets/svgs/logo-white.svg"
+                alt=""
+              />
+              <p class="mt-6 text-16 text-white leading-[150%]">
+                World' Vest Base (WVB) is a primary source for global financial,
+                statistical and market information.<br />
+                The database universe spans over 54,000 active, publicly-listed
+                companies collected from over 160 countries.
+              </p>
+              <!-- <div
+                class="mt-3 flex h-[44px] items-center justify-between overflow-hidden rounded-[4px] bg-bg-gray"
+              >
+                <input
+                  class="w-full bg-transparent px-4 text-text-gray-light outline-none"
+                  type="email"
+                  placeholder="Your email address"
+                />
+                <button
+                  class="flex h-full w-[82px] items-center justify-center bg-primary-green px-[24px] font-bold text-white transition-all duration-200 hover:bg-white hover:text-primary-green"
+                >
+                  Send
+                </button>
+              </div> -->
+            </div>
+            <div class="mt-auto">
+              <p class="mb-1 text-16 font-bold text-white lg:mb-3 2xl:text-18">
+                Company
+              </p>
+              <ul class="footer-list">
+                <li><a href="/about-us.html#our-company">Our Company</a></li>
+                <li>
+                  <a href="/about-us.html#global-presence">Global Presence</a>
+                </li>
+                <li><a href="/about-us.html#who-we-serve">Who We Serve</a></li>
+              </ul>
+            </div>
+            <div class="mt-auto">
+              <p class="mb-1 text-16 font-bold text-white lg:mb-3 2xl:text-18">
+                About us
+              </p>
+              <ul class="footer-list">
+                <li><a href="/index.html#expertise">Expertise</a></li>
+                <li><a href="/index.html#solutions">Our Solutions</a></li>
+                <li><a href="/news.html">News</a></li>
+              </ul>
+            </div>
+            <div class="mt-auto">
+              <p class="mb-1 text-16 font-bold text-white lg:mb-3 2xl:text-18">
+                Support
+              </p>
+              <ul class="footer-list">
+                <li><a href="/career.html">Careers</a></li>
+                <li><a href="/contact-us.html">Contact Us</a></li>
+                <li><a href="/faqs.html">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="relative mt-[26px] flex flex-col items-center justify-between gap-4 border-t border-t-[#A7ADB2] pt-[18px] sm:flex-row sm:pt-[26px] md:mt-[35px] lg:mt-[60px]"
+          >
+            <ul class="flex items-center gap-3 lg:gap-8">
+              <li>
+                <a
+                  class="text-16 text-white transition-all duration-100 hover:text-primary-green 2xl:text-16"
+                  href="/privacy-statement.html"
+                  >Privacy Policy</a
+                >
+              </li>
+
+              <li>
+                <a
+                  class="text-16 text-white transition-all duration-100 hover:text-primary-green 2xl:text-16"
+                  href="/terms-conditions.html"
+                  >Term of Use</a
+                >
+              </li>
+            </ul>
+            <p
+              class="left-1/2 top-1/2 hidden text-center text-16 text-white lg:absolute lg:block lg:-translate-x-1/2 2xl:text-16"
+            >
+              Copyright © 2023
+            </p>
+            <ul class="flex items-center gap-[15px]">
+              <li>
+                <a
+                  class="footer-social"
+                  href="https://www.facebook.com/WorldVestBase"
+                  target="_blank"
+                >
+                  <img src="./assets/svgs/fb.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a
+                  class="footer-social"
+                  href="https://www.instagram.com/worldvestbase/"
+                  target="_blank"
+                  ><img src="./assets/svgs/ig.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="footer-social"
+                  href="https://twitter.com/WorldVestBase"
+                  target="_blank"
+                  ><img src="./assets/svgs/twitter.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  class="footer-social"
+                  href="https://www.linkedin.com/company/world'vest-base"
+                  target="_blank"
+                  ><img src="./assets/svgs/in.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <p
+            class="mx-auto mt-4 block text-center text-16 text-white lg:hidden"
+          >
+            Copyright © 2023
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div id="menu" class="menu">
+      <ul class="mobile-menu-list container">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about-us.html">About Us</a></li>
+        <li>
+          <a href="#"
+            >Platform & Services
+
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </li>
+        <li class="active">
+          <a href="/news.html"
+            >News & Media <i class="fa-solid fa-angle-down"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <script src="./js/lib/swiper-bundle.min.js"></script>
+    <script src="./js/mega-menu.js"></script>
+
+    <script>
+      const parallax = document.querySelector(".parallax");
+
+      const newsItems = document.querySelectorAll(".news-item");
+
+      newsItems.forEach((item) => {
+        item.onclick = function () {
+          if (document.querySelector(".news-item.active")) {
+            document
+              .querySelector(".news-item.active")
+              .classList.remove("active");
+            return;
+          }
+
+          this.classList.toggle("active");
+        };
+      });
+
+      window.addEventListener("scroll", function () {
+        let offset = window.pageYOffset;
+        parallax.style.backgroundPositionY = offset * 0.3 + "px";
+      });
+    </script>
+  </body>
+</html>
